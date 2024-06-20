@@ -71,7 +71,7 @@ store_location,product_id,unit_price,product_category,product_type.
 
  ## 4. Data Import into Power BI
  * **Connection:** Established a direct connection between Power BI and the MySQL database to import cleaned and transformed data.
- * **Import Process:** Utilized Power BI Desktop to connect to MySQL, selecting relevant tables for analysis.
+ * **Import Process:** Utilized Power BI Desktop to connect to MySQL, selecting relevant table for analysis.
 
 ## 5. Data Modeling and Relationships (Power BI)
 * **Data Modeling:** Created a new table called **Date Table** using the the calender function(CALENDAR(MIN(Transactions[transaction_date]), MAX(Transactions[transaction_date])) then created relationships between the transaction table and date table by dragging the date on the date table and joining it with the transaction_date on the transaction table.
@@ -82,7 +82,7 @@ Snippet of New Table created
 
 ![image](https://github.com/Shevnon/Coffee_Shop_Sales_Mysql_and_Power_Bi/assets/161952555/ac863c9e-d038-44d0-b2be-98a0207d61ae)
 
-Snippet of Data Modelling
+Snippet of Data Modelling Performed
 
 
  * **Calculated Columns and Measures:** Defined calculated columns and measures (e.g. total sales,total orders total quantity, mom growth & diff sales etc ) using DAX (Data Analysis Expressions) in Power BI to facilitate analysis and i compared it to the the analysis i did using Mysql to check for accuracy. I uploaded a file where i displayed all calculation utilized using DAX.
@@ -115,7 +115,7 @@ It is important to monitor customer retention rates and make the necessary adjus
 2. Implement a loyalty program to reward repeat customers with discounts, freebies, or exclusive offers, incentivizing return visits.
 3. Collaborate with local businesses, offices, or events to promote your coffee shop and reach new customers through partnerships or sponsorships.
 4.  Host coffee tasting events, workshops, or themed promotions to attract customers and educate them about your coffee offerings.
-5. Target persific demographic group.
+5. Target percific demographic group.
 6. Streamline operations to ensure quick service during peak hours. Consider mobile ordering options or drive-thru services for added convenience.
 7. Collect feedback from customers regularly to understand their preferences and areas for improvement. Use this data to refine your offerings and services.
 
