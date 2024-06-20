@@ -64,16 +64,16 @@ store_location,product_id,unit_price,product_category,product_type.
 
   Snippet of data cleaning performed
 
-  ## Advanced Analytics and Insights
+  ## 3. Advanced Analytics and Insights
 * **Key Metrics:** Calculated and analyzed key performance indicators (KPIs) such as total sales, total orders and total quantity by selected month by using the where function.
 * **Segmentation Analysis:** Conducted segmentation analysis to understand sales patterns by store Location, store product category and store product type.
 
 
- ## 3. Data Import into Power BI
+ ## 4. Data Import into Power BI
  * **Connection:** Established a direct connection between Power BI and the MySQL database to import cleaned and transformed data.
  * **Import Process:** Utilized Power BI Desktop to connect to MySQL, selecting relevant tables for analysis.
 
-## 4. Data Modeling and Relationships (Power BI)
+## 5. Data Modeling and Relationships (Power BI)
 * **Data Modeling:** Created a new table called **Date Table** using the the calender function(CALENDAR(MIN(Transactions[transaction_date]), MAX(Transactions[transaction_date])) then created relationships between the transaction table and date table by dragging the date on the date table and joining it with the transaction_date on the transaction table.
 
 ![image](https://github.com/Shevnon/Coffee_Shop_Sales_Mysql_and_Power_Bi/assets/161952555/997c646e-95ed-42b6-a4c5-dfc6edd2d3f5)
@@ -87,7 +87,7 @@ Snippet of Data Modelling
 
  * **Calculated Columns and Measures:** Defined calculated columns and measures (e.g. total sales,total orders total quantity, mom growth & diff sales etc ) using DAX (Data Analysis Expressions) in Power BI to facilitate analysis and i compared it to the the analysis i did using Mysql to check for accuracy. I uploaded a file where i displayed all calculation utilized using DAX.
 
-## 5. Data Visualization and Analysis (Power BI)   
+## 6. Data Visualization and Analysis (Power BI)   
 * **Dashboard Design:** Designed interactive dashboards in Power BI to visualize key metrics and insights.
 * **Visualization Types:** Utilized various visualization types including bar charts, line charts, column charts and heat maps to represent sales performance across various category,products days and time.
 * **Interactive Features:** Implemented slicers, filters, and drill-down capabilities in Power BI to allow stakeholders to explore data dynamically.
@@ -97,7 +97,7 @@ Snippet of Data Modelling
  Snippet of Final Dashboard
  
 
-## 6. Advanced Analytics and Insights
+## 7. Advanced Analytics and Insights
 * **Key Metrics:** Calculated and analyzed key performance indicators (KPIs) such as total sales, total orders and total quantity.
 * **Segmentation Analysis:** Conducted segmentation analysis to understand sales patterns by store Location, store product category and store product type.
 
