@@ -82,7 +82,7 @@ Snippet of New Table created
 
 ![image](https://github.com/Shevnon/Coffee_Shop_Sales_Mysql_and_Power_Bi/assets/161952555/ac863c9e-d038-44d0-b2be-98a0207d61ae)
 
-Snippet of Data Modelling Performed
+Snippet of Entity Relationship Data Model Performed
 
 
  * **Calculated Columns and Measures:** Defined calculated columns and measures (e.g. total sales,total orders total quantity, mom growth & diff sales etc ) using DAX (Data Analysis Expressions) in Power BI to facilitate analysis and i compared it to the the analysis i did using Mysql to check for accuracy. I uploaded a file where i displayed all calculation utilized using DAX.
