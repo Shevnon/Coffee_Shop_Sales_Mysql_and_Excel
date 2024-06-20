@@ -1,4 +1,4 @@
-# Coffee_Shop_Sales_Mysql_and_Excel
+# Coffee_Shop_Sales_Mysql_and_Power_BI
 An Analysis of a Coffee Shop Sales on different Product Types, Product Category and Store Location over Time
 
 # INTRODUCTION
